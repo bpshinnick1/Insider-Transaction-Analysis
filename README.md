@@ -309,7 +309,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📧 Contact
 
-Ben - [Your Email/LinkedIn]
+Ben - benpshinnick@outlook.com / https://www.linkedin.com/in/ben-shinnick-674969252/              
+
 
 Project Link: [https://github.com/yourusername/insider-trading-bot](https://github.com/yourusername/insider-trading-bot)
 
