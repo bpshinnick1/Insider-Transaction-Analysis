@@ -1,0 +1,420 @@
+[2026-01-21 18:52:06] INFO     [scraper.main:211] Starting OpenInsider scraper...
+[2026-01-21 18:52:06] INFO     [scraper.scrape_recent_transactions:53] Scraping insider transactions from last 7 days...
+[2026-01-21 18:52:11] ERROR    [scraper.scrape_recent_transactions:89] Error scraping OpenInsider: 'filing_date'
+[2026-01-21 18:52:11] WARNING  [scraper.main:222] No transactions found
+[2026-01-21 18:54:10] INFO     [backtester.run_backtest:108] Running backtest from 2023-01-01 to 2024-12-31
+[2026-01-21 18:54:10] INFO     [backtester.load_historical_signals:55] Loading historical data from 2023-01-01 to 2024-12-31
+[2026-01-21 18:54:10] INFO     [price_fetcher.get_historical_prices:71] Fetching JPM prices from 2022-12-31 to 2023-01-02
+[2026-01-21 18:54:10] WARNING  [price_fetcher.get_historical_prices:77] No historical data for JPM
+[2026-01-21 18:54:10] INFO     [price_fetcher.get_historical_prices:71] Fetching MSFT prices from 2022-12-31 to 2023-01-02
+[2026-01-21 18:54:10] WARNING  [price_fetcher.get_historical_prices:77] No historical data for MSFT
+[2026-01-21 18:54:10] INFO     [price_fetcher.get_historical_prices:71] Fetching META prices from 2023-01-07 to 2023-01-09
+[2026-01-21 18:54:10] WARNING  [price_fetcher.get_historical_prices:77] No historical data for META
+[2026-01-21 18:54:10] INFO     [price_fetcher.get_historical_prices:71] Fetching TSLA prices from 2023-01-14 to 2023-01-16
+[2026-01-21 18:54:11] WARNING  [price_fetcher.get_historical_prices:77] No historical data for TSLA
+[2026-01-21 18:54:11] INFO     [price_fetcher.get_historical_prices:71] Fetching TSLA prices from 2023-01-21 to 2023-01-23
+[2026-01-21 18:54:11] WARNING  [price_fetcher.get_historical_prices:77] No historical data for TSLA
+[2026-01-21 18:54:11] INFO     [price_fetcher.get_historical_prices:71] Fetching AMZN prices from 2023-01-21 to 2023-01-23
+[2026-01-21 18:54:11] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMZN
+[2026-01-21 18:54:11] INFO     [price_fetcher.get_historical_prices:71] Fetching AAPL prices from 2023-01-28 to 2023-01-30
+[2026-01-21 18:54:11] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AAPL
+[2026-01-21 18:54:11] INFO     [price_fetcher.get_historical_prices:71] Fetching DIS prices from 2023-01-28 to 2023-01-30
+[2026-01-21 18:54:11] WARNING  [price_fetcher.get_historical_prices:77] No historical data for DIS
+[2026-01-21 18:54:11] INFO     [price_fetcher.get_historical_prices:71] Fetching NFLX prices from 2023-01-28 to 2023-01-30
+[2026-01-21 18:54:11] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NFLX
+[2026-01-21 18:54:11] INFO     [price_fetcher.get_historical_prices:71] Fetching NVDA prices from 2023-02-04 to 2023-02-06
+[2026-01-21 18:54:11] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NVDA
+[2026-01-21 18:54:11] INFO     [price_fetcher.get_historical_prices:71] Fetching V prices from 2023-02-04 to 2023-02-06
+[2026-01-21 18:54:11] WARNING  [price_fetcher.get_historical_prices:77] No historical data for V
+[2026-01-21 18:54:11] INFO     [price_fetcher.get_historical_prices:71] Fetching DIS prices from 2023-02-04 to 2023-02-06
+[2026-01-21 18:54:12] WARNING  [price_fetcher.get_historical_prices:77] No historical data for DIS
+[2026-01-21 18:54:12] INFO     [price_fetcher.get_historical_prices:71] Fetching GOOGL prices from 2023-02-11 to 2023-02-13
+[2026-01-21 18:54:12] WARNING  [price_fetcher.get_historical_prices:77] No historical data for GOOGL
+[2026-01-21 18:54:12] INFO     [price_fetcher.get_historical_prices:71] Fetching DIS prices from 2023-02-18 to 2023-02-20
+[2026-01-21 18:54:12] WARNING  [price_fetcher.get_historical_prices:77] No historical data for DIS
+[2026-01-21 18:54:12] INFO     [price_fetcher.get_historical_prices:71] Fetching TSLA prices from 2023-02-18 to 2023-02-20
+[2026-01-21 18:54:12] WARNING  [price_fetcher.get_historical_prices:77] No historical data for TSLA
+[2026-01-21 18:54:12] INFO     [price_fetcher.get_historical_prices:71] Fetching GOOGL prices from 2023-02-18 to 2023-02-20
+[2026-01-21 18:54:12] WARNING  [price_fetcher.get_historical_prices:77] No historical data for GOOGL
+[2026-01-21 18:54:12] INFO     [price_fetcher.get_historical_prices:71] Fetching AMD prices from 2023-02-25 to 2023-02-27
+[2026-01-21 18:54:12] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMD
+[2026-01-21 18:54:12] INFO     [price_fetcher.get_historical_prices:71] Fetching META prices from 2023-02-25 to 2023-02-27
+[2026-01-21 18:54:12] WARNING  [price_fetcher.get_historical_prices:77] No historical data for META
+[2026-01-21 18:54:12] INFO     [price_fetcher.get_historical_prices:71] Fetching PG prices from 2023-02-25 to 2023-02-27
+[2026-01-21 18:54:12] WARNING  [price_fetcher.get_historical_prices:77] No historical data for PG
+[2026-01-21 18:54:12] INFO     [price_fetcher.get_historical_prices:71] Fetching DIS prices from 2023-03-04 to 2023-03-06
+[2026-01-21 18:54:12] WARNING  [price_fetcher.get_historical_prices:77] No historical data for DIS
+[2026-01-21 18:54:12] INFO     [price_fetcher.get_historical_prices:71] Fetching NVDA prices from 2023-03-04 to 2023-03-06
+[2026-01-21 18:54:12] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NVDA
+[2026-01-21 18:54:12] INFO     [price_fetcher.get_historical_prices:71] Fetching V prices from 2023-03-11 to 2023-03-13
+[2026-01-21 18:54:13] WARNING  [price_fetcher.get_historical_prices:77] No historical data for V
+[2026-01-21 18:54:13] INFO     [price_fetcher.get_historical_prices:71] Fetching WMT prices from 2023-03-18 to 2023-03-20
+[2026-01-21 18:54:13] WARNING  [price_fetcher.get_historical_prices:77] No historical data for WMT
+[2026-01-21 18:54:13] INFO     [price_fetcher.get_historical_prices:71] Fetching MSFT prices from 2023-03-18 to 2023-03-20
+[2026-01-21 18:54:13] WARNING  [price_fetcher.get_historical_prices:77] No historical data for MSFT
+[2026-01-21 18:54:13] INFO     [price_fetcher.get_historical_prices:71] Fetching PG prices from 2023-03-25 to 2023-03-27
+[2026-01-21 18:54:13] WARNING  [price_fetcher.get_historical_prices:77] No historical data for PG
+[2026-01-21 18:54:13] INFO     [price_fetcher.get_historical_prices:71] Fetching WMT prices from 2023-04-01 to 2023-04-03
+[2026-01-21 18:54:13] WARNING  [price_fetcher.get_historical_prices:77] No historical data for WMT
+[2026-01-21 18:54:13] INFO     [price_fetcher.get_historical_prices:71] Fetching AMZN prices from 2023-04-08 to 2023-04-10
+[2026-01-21 18:54:13] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMZN
+[2026-01-21 18:54:13] INFO     [price_fetcher.get_historical_prices:71] Fetching PG prices from 2023-04-08 to 2023-04-10
+[2026-01-21 18:54:13] WARNING  [price_fetcher.get_historical_prices:77] No historical data for PG
+[2026-01-21 18:54:13] INFO     [price_fetcher.get_historical_prices:71] Fetching WMT prices from 2023-04-15 to 2023-04-17
+[2026-01-21 18:54:13] WARNING  [price_fetcher.get_historical_prices:77] No historical data for WMT
+[2026-01-21 18:54:13] INFO     [price_fetcher.get_historical_prices:71] Fetching NVDA prices from 2023-04-15 to 2023-04-17
+[2026-01-21 18:54:14] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NVDA
+[2026-01-21 18:54:14] INFO     [price_fetcher.get_historical_prices:71] Fetching V prices from 2023-04-15 to 2023-04-17
+[2026-01-21 18:54:14] WARNING  [price_fetcher.get_historical_prices:77] No historical data for V
+[2026-01-21 18:54:14] INFO     [price_fetcher.get_historical_prices:71] Fetching V prices from 2023-04-22 to 2023-04-24
+[2026-01-21 18:54:14] WARNING  [price_fetcher.get_historical_prices:77] No historical data for V
+[2026-01-21 18:54:14] INFO     [price_fetcher.get_historical_prices:71] Fetching BA prices from 2023-04-29 to 2023-05-01
+[2026-01-21 18:54:16] WARNING  [price_fetcher.get_historical_prices:77] No historical data for BA
+[2026-01-21 18:54:16] INFO     [price_fetcher.get_historical_prices:71] Fetching AAPL prices from 2023-04-29 to 2023-05-01
+[2026-01-21 18:54:16] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AAPL
+[2026-01-21 18:54:16] INFO     [price_fetcher.get_historical_prices:71] Fetching AMD prices from 2023-04-29 to 2023-05-01
+[2026-01-21 18:54:16] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMD
+[2026-01-21 18:54:16] INFO     [price_fetcher.get_historical_prices:71] Fetching PG prices from 2023-05-06 to 2023-05-08
+[2026-01-21 18:54:16] WARNING  [price_fetcher.get_historical_prices:77] No historical data for PG
+[2026-01-21 18:54:16] INFO     [price_fetcher.get_historical_prices:71] Fetching AMZN prices from 2023-05-06 to 2023-05-08
+[2026-01-21 18:54:16] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMZN
+[2026-01-21 18:54:16] INFO     [price_fetcher.get_historical_prices:71] Fetching BA prices from 2023-05-06 to 2023-05-08
+[2026-01-21 18:54:16] WARNING  [price_fetcher.get_historical_prices:77] No historical data for BA
+[2026-01-21 18:54:16] INFO     [price_fetcher.get_historical_prices:71] Fetching BA prices from 2023-05-13 to 2023-05-15
+[2026-01-21 18:54:16] WARNING  [price_fetcher.get_historical_prices:77] No historical data for BA
+[2026-01-21 18:54:16] INFO     [price_fetcher.get_historical_prices:71] Fetching NVDA prices from 2023-05-20 to 2023-05-22
+[2026-01-21 18:54:16] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NVDA
+[2026-01-21 18:54:16] INFO     [price_fetcher.get_historical_prices:71] Fetching GOOGL prices from 2023-05-20 to 2023-05-22
+[2026-01-21 18:54:16] WARNING  [price_fetcher.get_historical_prices:77] No historical data for GOOGL
+[2026-01-21 18:54:16] INFO     [price_fetcher.get_historical_prices:71] Fetching MSFT prices from 2023-05-20 to 2023-05-22
+[2026-01-21 18:54:16] WARNING  [price_fetcher.get_historical_prices:77] No historical data for MSFT
+[2026-01-21 18:54:16] INFO     [price_fetcher.get_historical_prices:71] Fetching AMD prices from 2023-05-27 to 2023-05-29
+[2026-01-21 18:54:16] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMD
+[2026-01-21 18:54:16] INFO     [price_fetcher.get_historical_prices:71] Fetching NVDA prices from 2023-06-03 to 2023-06-05
+[2026-01-21 18:54:16] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NVDA
+[2026-01-21 18:54:16] INFO     [price_fetcher.get_historical_prices:71] Fetching PG prices from 2023-06-03 to 2023-06-05
+[2026-01-21 18:54:16] WARNING  [price_fetcher.get_historical_prices:77] No historical data for PG
+[2026-01-21 18:54:16] INFO     [price_fetcher.get_historical_prices:71] Fetching PG prices from 2023-06-10 to 2023-06-12
+[2026-01-21 18:54:17] WARNING  [price_fetcher.get_historical_prices:77] No historical data for PG
+[2026-01-21 18:54:17] INFO     [price_fetcher.get_historical_prices:71] Fetching GOOGL prices from 2023-06-10 to 2023-06-12
+[2026-01-21 18:54:17] WARNING  [price_fetcher.get_historical_prices:77] No historical data for GOOGL
+[2026-01-21 18:54:17] INFO     [price_fetcher.get_historical_prices:71] Fetching WMT prices from 2023-06-10 to 2023-06-12
+[2026-01-21 18:54:17] WARNING  [price_fetcher.get_historical_prices:77] No historical data for WMT
+[2026-01-21 18:54:17] INFO     [price_fetcher.get_historical_prices:71] Fetching BA prices from 2023-06-17 to 2023-06-19
+[2026-01-21 18:54:17] WARNING  [price_fetcher.get_historical_prices:77] No historical data for BA
+[2026-01-21 18:54:17] INFO     [price_fetcher.get_historical_prices:71] Fetching V prices from 2023-06-17 to 2023-06-19
+[2026-01-21 18:54:17] WARNING  [price_fetcher.get_historical_prices:77] No historical data for V
+[2026-01-21 18:54:17] INFO     [price_fetcher.get_historical_prices:71] Fetching JPM prices from 2023-06-17 to 2023-06-19
+[2026-01-21 18:54:17] WARNING  [price_fetcher.get_historical_prices:77] No historical data for JPM
+[2026-01-21 18:54:17] INFO     [price_fetcher.get_historical_prices:71] Fetching V prices from 2023-06-24 to 2023-06-26
+[2026-01-21 18:54:17] WARNING  [price_fetcher.get_historical_prices:77] No historical data for V
+[2026-01-21 18:54:17] INFO     [price_fetcher.get_historical_prices:71] Fetching NFLX prices from 2023-06-24 to 2023-06-26
+[2026-01-21 18:54:17] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NFLX
+[2026-01-21 18:54:17] INFO     [price_fetcher.get_historical_prices:71] Fetching TSLA prices from 2023-06-24 to 2023-06-26
+[2026-01-21 18:54:17] WARNING  [price_fetcher.get_historical_prices:77] No historical data for TSLA
+[2026-01-21 18:54:17] INFO     [price_fetcher.get_historical_prices:71] Fetching AAPL prices from 2023-07-01 to 2023-07-03
+[2026-01-21 18:54:17] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AAPL
+[2026-01-21 18:54:17] INFO     [price_fetcher.get_historical_prices:71] Fetching GOOGL prices from 2023-07-01 to 2023-07-03
+[2026-01-21 18:54:17] WARNING  [price_fetcher.get_historical_prices:77] No historical data for GOOGL
+[2026-01-21 18:54:17] INFO     [price_fetcher.get_historical_prices:71] Fetching WMT prices from 2023-07-08 to 2023-07-10
+[2026-01-21 18:54:17] WARNING  [price_fetcher.get_historical_prices:77] No historical data for WMT
+[2026-01-21 18:54:17] INFO     [price_fetcher.get_historical_prices:71] Fetching BA prices from 2023-07-15 to 2023-07-17
+[2026-01-21 18:54:17] WARNING  [price_fetcher.get_historical_prices:77] No historical data for BA
+[2026-01-21 18:54:17] INFO     [price_fetcher.get_historical_prices:71] Fetching NVDA prices from 2023-07-15 to 2023-07-17
+[2026-01-21 18:54:18] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NVDA
+[2026-01-21 18:54:18] INFO     [price_fetcher.get_historical_prices:71] Fetching V prices from 2023-07-22 to 2023-07-24
+[2026-01-21 18:54:18] WARNING  [price_fetcher.get_historical_prices:77] No historical data for V
+[2026-01-21 18:54:18] INFO     [price_fetcher.get_historical_prices:71] Fetching BA prices from 2023-07-22 to 2023-07-24
+[2026-01-21 18:54:18] WARNING  [price_fetcher.get_historical_prices:77] No historical data for BA
+[2026-01-21 18:54:18] INFO     [price_fetcher.get_historical_prices:71] Fetching WMT prices from 2023-07-29 to 2023-07-31
+[2026-01-21 18:54:18] WARNING  [price_fetcher.get_historical_prices:77] No historical data for WMT
+[2026-01-21 18:54:18] INFO     [price_fetcher.get_historical_prices:71] Fetching NFLX prices from 2023-07-29 to 2023-07-31
+[2026-01-21 18:54:18] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NFLX
+[2026-01-21 18:54:18] INFO     [price_fetcher.get_historical_prices:71] Fetching AAPL prices from 2023-08-05 to 2023-08-07
+[2026-01-21 18:54:18] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AAPL
+[2026-01-21 18:54:18] INFO     [price_fetcher.get_historical_prices:71] Fetching MSFT prices from 2023-08-12 to 2023-08-14
+[2026-01-21 18:54:18] WARNING  [price_fetcher.get_historical_prices:77] No historical data for MSFT
+[2026-01-21 18:54:18] INFO     [price_fetcher.get_historical_prices:71] Fetching BA prices from 2023-08-12 to 2023-08-14
+[2026-01-21 18:54:18] WARNING  [price_fetcher.get_historical_prices:77] No historical data for BA
+[2026-01-21 18:54:18] INFO     [price_fetcher.get_historical_prices:71] Fetching AMD prices from 2023-08-19 to 2023-08-21
+[2026-01-21 18:54:18] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMD
+[2026-01-21 18:54:18] INFO     [price_fetcher.get_historical_prices:71] Fetching TSLA prices from 2023-08-19 to 2023-08-21
+[2026-01-21 18:54:18] WARNING  [price_fetcher.get_historical_prices:77] No historical data for TSLA
+[2026-01-21 18:54:18] INFO     [price_fetcher.get_historical_prices:71] Fetching JPM prices from 2023-08-26 to 2023-08-28
+[2026-01-21 18:54:18] WARNING  [price_fetcher.get_historical_prices:77] No historical data for JPM
+[2026-01-21 18:54:18] INFO     [price_fetcher.get_historical_prices:71] Fetching META prices from 2023-08-26 to 2023-08-28
+[2026-01-21 18:54:18] WARNING  [price_fetcher.get_historical_prices:77] No historical data for META
+[2026-01-21 18:54:18] INFO     [price_fetcher.get_historical_prices:71] Fetching AMZN prices from 2023-09-02 to 2023-09-04
+[2026-01-21 18:54:18] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMZN
+[2026-01-21 18:54:18] INFO     [price_fetcher.get_historical_prices:71] Fetching AAPL prices from 2023-09-09 to 2023-09-11
+[2026-01-21 18:54:19] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AAPL
+[2026-01-21 18:54:19] INFO     [price_fetcher.get_historical_prices:71] Fetching AAPL prices from 2023-09-16 to 2023-09-18
+[2026-01-21 18:54:19] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AAPL
+[2026-01-21 18:54:19] INFO     [price_fetcher.get_historical_prices:71] Fetching JPM prices from 2023-09-16 to 2023-09-18
+[2026-01-21 18:54:19] WARNING  [price_fetcher.get_historical_prices:77] No historical data for JPM
+[2026-01-21 18:54:19] INFO     [price_fetcher.get_historical_prices:71] Fetching AMD prices from 2023-09-23 to 2023-09-25
+[2026-01-21 18:54:19] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMD
+[2026-01-21 18:54:19] INFO     [price_fetcher.get_historical_prices:71] Fetching AMZN prices from 2023-09-30 to 2023-10-02
+[2026-01-21 18:54:19] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMZN
+[2026-01-21 18:54:19] INFO     [price_fetcher.get_historical_prices:71] Fetching JPM prices from 2023-09-30 to 2023-10-02
+[2026-01-21 18:54:19] WARNING  [price_fetcher.get_historical_prices:77] No historical data for JPM
+[2026-01-21 18:54:19] INFO     [price_fetcher.get_historical_prices:71] Fetching AAPL prices from 2023-10-07 to 2023-10-09
+[2026-01-21 18:54:19] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AAPL
+[2026-01-21 18:54:19] INFO     [price_fetcher.get_historical_prices:71] Fetching MSFT prices from 2023-10-07 to 2023-10-09
+[2026-01-21 18:54:19] WARNING  [price_fetcher.get_historical_prices:77] No historical data for MSFT
+[2026-01-21 18:54:19] INFO     [price_fetcher.get_historical_prices:71] Fetching DIS prices from 2023-10-07 to 2023-10-09
+[2026-01-21 18:54:19] WARNING  [price_fetcher.get_historical_prices:77] No historical data for DIS
+[2026-01-21 18:54:19] INFO     [price_fetcher.get_historical_prices:71] Fetching PG prices from 2023-10-14 to 2023-10-16
+[2026-01-21 18:54:19] WARNING  [price_fetcher.get_historical_prices:77] No historical data for PG
+[2026-01-21 18:54:19] INFO     [price_fetcher.get_historical_prices:71] Fetching PG prices from 2023-10-21 to 2023-10-23
+[2026-01-21 18:54:20] WARNING  [price_fetcher.get_historical_prices:77] No historical data for PG
+[2026-01-21 18:54:20] INFO     [price_fetcher.get_historical_prices:71] Fetching JPM prices from 2023-10-21 to 2023-10-23
+[2026-01-21 18:54:20] WARNING  [price_fetcher.get_historical_prices:77] No historical data for JPM
+[2026-01-21 18:54:20] INFO     [price_fetcher.get_historical_prices:71] Fetching TSLA prices from 2023-10-21 to 2023-10-23
+[2026-01-21 18:54:20] WARNING  [price_fetcher.get_historical_prices:77] No historical data for TSLA
+[2026-01-21 18:54:20] INFO     [price_fetcher.get_historical_prices:71] Fetching DIS prices from 2023-10-28 to 2023-10-30
+[2026-01-21 18:54:20] WARNING  [price_fetcher.get_historical_prices:77] No historical data for DIS
+[2026-01-21 18:54:20] INFO     [price_fetcher.get_historical_prices:71] Fetching AMZN prices from 2023-10-28 to 2023-10-30
+[2026-01-21 18:54:20] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMZN
+[2026-01-21 18:54:20] INFO     [price_fetcher.get_historical_prices:71] Fetching PG prices from 2023-11-04 to 2023-11-06
+[2026-01-21 18:54:20] WARNING  [price_fetcher.get_historical_prices:77] No historical data for PG
+[2026-01-21 18:54:20] INFO     [price_fetcher.get_historical_prices:71] Fetching GOOGL prices from 2023-11-04 to 2023-11-06
+[2026-01-21 18:54:20] WARNING  [price_fetcher.get_historical_prices:77] No historical data for GOOGL
+[2026-01-21 18:54:20] INFO     [price_fetcher.get_historical_prices:71] Fetching V prices from 2023-11-04 to 2023-11-06
+[2026-01-21 18:54:20] WARNING  [price_fetcher.get_historical_prices:77] No historical data for V
+[2026-01-21 18:54:20] INFO     [price_fetcher.get_historical_prices:71] Fetching AMD prices from 2023-11-11 to 2023-11-13
+[2026-01-21 18:54:20] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMD
+[2026-01-21 18:54:20] INFO     [price_fetcher.get_historical_prices:71] Fetching V prices from 2023-11-11 to 2023-11-13
+[2026-01-21 18:54:20] WARNING  [price_fetcher.get_historical_prices:77] No historical data for V
+[2026-01-21 18:54:20] INFO     [price_fetcher.get_historical_prices:71] Fetching TSLA prices from 2023-11-18 to 2023-11-20
+[2026-01-21 18:54:20] WARNING  [price_fetcher.get_historical_prices:77] No historical data for TSLA
+[2026-01-21 18:54:20] INFO     [price_fetcher.get_historical_prices:71] Fetching DIS prices from 2023-11-25 to 2023-11-27
+[2026-01-21 18:54:20] WARNING  [price_fetcher.get_historical_prices:77] No historical data for DIS
+[2026-01-21 18:54:20] INFO     [price_fetcher.get_historical_prices:71] Fetching PG prices from 2023-12-02 to 2023-12-04
+[2026-01-21 18:54:21] WARNING  [price_fetcher.get_historical_prices:77] No historical data for PG
+[2026-01-21 18:54:21] INFO     [price_fetcher.get_historical_prices:71] Fetching NVDA prices from 2023-12-02 to 2023-12-04
+[2026-01-21 18:54:21] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NVDA
+[2026-01-21 18:54:21] INFO     [price_fetcher.get_historical_prices:71] Fetching NVDA prices from 2023-12-09 to 2023-12-11
+[2026-01-21 18:54:21] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NVDA
+[2026-01-21 18:54:21] INFO     [price_fetcher.get_historical_prices:71] Fetching NFLX prices from 2023-12-09 to 2023-12-11
+[2026-01-21 18:54:21] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NFLX
+[2026-01-21 18:54:21] INFO     [price_fetcher.get_historical_prices:71] Fetching WMT prices from 2023-12-09 to 2023-12-11
+[2026-01-21 18:54:21] WARNING  [price_fetcher.get_historical_prices:77] No historical data for WMT
+[2026-01-21 18:54:21] INFO     [price_fetcher.get_historical_prices:71] Fetching AAPL prices from 2023-12-16 to 2023-12-18
+[2026-01-21 18:54:21] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AAPL
+[2026-01-21 18:54:21] INFO     [price_fetcher.get_historical_prices:71] Fetching NFLX prices from 2023-12-23 to 2023-12-25
+[2026-01-21 18:54:21] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NFLX
+[2026-01-21 18:54:21] INFO     [price_fetcher.get_historical_prices:71] Fetching TSLA prices from 2023-12-23 to 2023-12-25
+[2026-01-21 18:54:21] WARNING  [price_fetcher.get_historical_prices:77] No historical data for TSLA
+[2026-01-21 18:54:21] INFO     [price_fetcher.get_historical_prices:71] Fetching GOOGL prices from 2023-12-30 to 2024-01-01
+[2026-01-21 18:54:21] WARNING  [price_fetcher.get_historical_prices:77] No historical data for GOOGL
+[2026-01-21 18:54:21] INFO     [price_fetcher.get_historical_prices:71] Fetching DIS prices from 2023-12-30 to 2024-01-01
+[2026-01-21 18:54:21] WARNING  [price_fetcher.get_historical_prices:77] No historical data for DIS
+[2026-01-21 18:54:21] INFO     [price_fetcher.get_historical_prices:71] Fetching NVDA prices from 2024-01-06 to 2024-01-08
+[2026-01-21 18:54:21] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NVDA
+[2026-01-21 18:54:21] INFO     [price_fetcher.get_historical_prices:71] Fetching AMD prices from 2024-01-06 to 2024-01-08
+[2026-01-21 18:54:21] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMD
+[2026-01-21 18:54:21] INFO     [price_fetcher.get_historical_prices:71] Fetching V prices from 2024-01-06 to 2024-01-08
+[2026-01-21 18:54:21] WARNING  [price_fetcher.get_historical_prices:77] No historical data for V
+[2026-01-21 18:54:21] INFO     [price_fetcher.get_historical_prices:71] Fetching TSLA prices from 2024-01-13 to 2024-01-15
+[2026-01-21 18:54:21] WARNING  [price_fetcher.get_historical_prices:77] No historical data for TSLA
+[2026-01-21 18:54:21] INFO     [price_fetcher.get_historical_prices:71] Fetching PG prices from 2024-01-20 to 2024-01-22
+[2026-01-21 18:54:21] WARNING  [price_fetcher.get_historical_prices:77] No historical data for PG
+[2026-01-21 18:54:21] INFO     [price_fetcher.get_historical_prices:71] Fetching AMZN prices from 2024-01-20 to 2024-01-22
+[2026-01-21 18:54:22] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMZN
+[2026-01-21 18:54:22] INFO     [price_fetcher.get_historical_prices:71] Fetching DIS prices from 2024-01-27 to 2024-01-29
+[2026-01-21 18:54:22] WARNING  [price_fetcher.get_historical_prices:77] No historical data for DIS
+[2026-01-21 18:54:22] INFO     [price_fetcher.get_historical_prices:71] Fetching BA prices from 2024-01-27 to 2024-01-29
+[2026-01-21 18:54:22] WARNING  [price_fetcher.get_historical_prices:77] No historical data for BA
+[2026-01-21 18:54:22] INFO     [price_fetcher.get_historical_prices:71] Fetching MSFT prices from 2024-02-03 to 2024-02-05
+[2026-01-21 18:54:22] WARNING  [price_fetcher.get_historical_prices:77] No historical data for MSFT
+[2026-01-21 18:54:22] INFO     [price_fetcher.get_historical_prices:71] Fetching AMD prices from 2024-02-03 to 2024-02-05
+[2026-01-21 18:54:22] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMD
+[2026-01-21 18:54:22] INFO     [price_fetcher.get_historical_prices:71] Fetching MSFT prices from 2024-02-10 to 2024-02-12
+[2026-01-21 18:54:22] WARNING  [price_fetcher.get_historical_prices:77] No historical data for MSFT
+[2026-01-21 18:54:22] INFO     [price_fetcher.get_historical_prices:71] Fetching AMZN prices from 2024-02-10 to 2024-02-12
+[2026-01-21 18:54:23] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMZN
+[2026-01-21 18:54:23] INFO     [price_fetcher.get_historical_prices:71] Fetching MSFT prices from 2024-02-17 to 2024-02-19
+[2026-01-21 18:54:23] WARNING  [price_fetcher.get_historical_prices:77] No historical data for MSFT
+[2026-01-21 18:54:23] INFO     [price_fetcher.get_historical_prices:71] Fetching PG prices from 2024-02-24 to 2024-02-26
+[2026-01-21 18:54:23] WARNING  [price_fetcher.get_historical_prices:77] No historical data for PG
+[2026-01-21 18:54:23] INFO     [price_fetcher.get_historical_prices:71] Fetching GOOGL prices from 2024-03-02 to 2024-03-04
+[2026-01-21 18:54:23] WARNING  [price_fetcher.get_historical_prices:77] No historical data for GOOGL
+[2026-01-21 18:54:23] INFO     [price_fetcher.get_historical_prices:71] Fetching AMD prices from 2024-03-02 to 2024-03-04
+[2026-01-21 18:54:23] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMD
+[2026-01-21 18:54:23] INFO     [price_fetcher.get_historical_prices:71] Fetching AMD prices from 2024-03-09 to 2024-03-11
+[2026-01-21 18:54:23] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMD
+[2026-01-21 18:54:23] INFO     [price_fetcher.get_historical_prices:71] Fetching AAPL prices from 2024-03-09 to 2024-03-11
+[2026-01-21 18:54:23] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AAPL
+[2026-01-21 18:54:23] INFO     [price_fetcher.get_historical_prices:71] Fetching NFLX prices from 2024-03-16 to 2024-03-18
+[2026-01-21 18:54:23] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NFLX
+[2026-01-21 18:54:23] INFO     [price_fetcher.get_historical_prices:71] Fetching WMT prices from 2024-03-23 to 2024-03-25
+[2026-01-21 18:54:24] WARNING  [price_fetcher.get_historical_prices:77] No historical data for WMT
+[2026-01-21 18:54:24] INFO     [price_fetcher.get_historical_prices:71] Fetching META prices from 2024-03-23 to 2024-03-25
+[2026-01-21 18:54:24] WARNING  [price_fetcher.get_historical_prices:77] No historical data for META
+[2026-01-21 18:54:24] INFO     [price_fetcher.get_historical_prices:71] Fetching JPM prices from 2024-03-23 to 2024-03-25
+[2026-01-21 18:54:24] WARNING  [price_fetcher.get_historical_prices:77] No historical data for JPM
+[2026-01-21 18:54:24] INFO     [price_fetcher.get_historical_prices:71] Fetching DIS prices from 2024-03-30 to 2024-04-01
+[2026-01-21 18:54:24] WARNING  [price_fetcher.get_historical_prices:77] No historical data for DIS
+[2026-01-21 18:54:24] INFO     [price_fetcher.get_historical_prices:71] Fetching AAPL prices from 2024-03-30 to 2024-04-01
+[2026-01-21 18:54:24] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AAPL
+[2026-01-21 18:54:24] INFO     [price_fetcher.get_historical_prices:71] Fetching GOOGL prices from 2024-04-06 to 2024-04-08
+[2026-01-21 18:54:24] WARNING  [price_fetcher.get_historical_prices:77] No historical data for GOOGL
+[2026-01-21 18:54:24] INFO     [price_fetcher.get_historical_prices:71] Fetching NFLX prices from 2024-04-13 to 2024-04-15
+[2026-01-21 18:54:24] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NFLX
+[2026-01-21 18:54:24] INFO     [price_fetcher.get_historical_prices:71] Fetching MSFT prices from 2024-04-13 to 2024-04-15
+[2026-01-21 18:54:25] WARNING  [price_fetcher.get_historical_prices:77] No historical data for MSFT
+[2026-01-21 18:54:25] INFO     [price_fetcher.get_historical_prices:71] Fetching META prices from 2024-04-20 to 2024-04-22
+[2026-01-21 18:54:25] WARNING  [price_fetcher.get_historical_prices:77] No historical data for META
+[2026-01-21 18:54:25] INFO     [price_fetcher.get_historical_prices:71] Fetching NVDA prices from 2024-04-20 to 2024-04-22
+[2026-01-21 18:54:25] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NVDA
+[2026-01-21 18:54:25] INFO     [price_fetcher.get_historical_prices:71] Fetching BA prices from 2024-04-27 to 2024-04-29
+[2026-01-21 18:54:25] WARNING  [price_fetcher.get_historical_prices:77] No historical data for BA
+[2026-01-21 18:54:25] INFO     [price_fetcher.get_historical_prices:71] Fetching NFLX prices from 2024-04-27 to 2024-04-29
+[2026-01-21 18:54:25] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NFLX
+[2026-01-21 18:54:25] INFO     [price_fetcher.get_historical_prices:71] Fetching NFLX prices from 2024-05-04 to 2024-05-06
+[2026-01-21 18:54:25] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NFLX
+[2026-01-21 18:54:25] INFO     [price_fetcher.get_historical_prices:71] Fetching V prices from 2024-05-04 to 2024-05-06
+[2026-01-21 18:54:25] WARNING  [price_fetcher.get_historical_prices:77] No historical data for V
+[2026-01-21 18:54:25] INFO     [price_fetcher.get_historical_prices:71] Fetching DIS prices from 2024-05-11 to 2024-05-13
+[2026-01-21 18:54:25] WARNING  [price_fetcher.get_historical_prices:77] No historical data for DIS
+[2026-01-21 18:54:25] INFO     [price_fetcher.get_historical_prices:71] Fetching PG prices from 2024-05-11 to 2024-05-13
+[2026-01-21 18:54:26] WARNING  [price_fetcher.get_historical_prices:77] No historical data for PG
+[2026-01-21 18:54:26] INFO     [price_fetcher.get_historical_prices:71] Fetching V prices from 2024-05-11 to 2024-05-13
+[2026-01-21 18:54:26] WARNING  [price_fetcher.get_historical_prices:77] No historical data for V
+[2026-01-21 18:54:26] INFO     [price_fetcher.get_historical_prices:71] Fetching DIS prices from 2024-05-18 to 2024-05-20
+[2026-01-21 18:54:26] WARNING  [price_fetcher.get_historical_prices:77] No historical data for DIS
+[2026-01-21 18:54:26] INFO     [price_fetcher.get_historical_prices:71] Fetching TSLA prices from 2024-05-18 to 2024-05-20
+[2026-01-21 18:54:26] WARNING  [price_fetcher.get_historical_prices:77] No historical data for TSLA
+[2026-01-21 18:54:26] INFO     [price_fetcher.get_historical_prices:71] Fetching JPM prices from 2024-05-25 to 2024-05-27
+[2026-01-21 18:54:26] WARNING  [price_fetcher.get_historical_prices:77] No historical data for JPM
+[2026-01-21 18:54:26] INFO     [price_fetcher.get_historical_prices:71] Fetching NFLX prices from 2024-05-25 to 2024-05-27
+[2026-01-21 18:54:26] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NFLX
+[2026-01-21 18:54:26] INFO     [price_fetcher.get_historical_prices:71] Fetching WMT prices from 2024-06-01 to 2024-06-03
+[2026-01-21 18:54:26] WARNING  [price_fetcher.get_historical_prices:77] No historical data for WMT
+[2026-01-21 18:54:26] INFO     [price_fetcher.get_historical_prices:71] Fetching PG prices from 2024-06-01 to 2024-06-03
+[2026-01-21 18:54:26] WARNING  [price_fetcher.get_historical_prices:77] No historical data for PG
+[2026-01-21 18:54:26] INFO     [price_fetcher.get_historical_prices:71] Fetching AMZN prices from 2024-06-08 to 2024-06-10
+[2026-01-21 18:54:26] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMZN
+[2026-01-21 18:54:26] INFO     [price_fetcher.get_historical_prices:71] Fetching MSFT prices from 2024-06-08 to 2024-06-10
+[2026-01-21 18:54:26] WARNING  [price_fetcher.get_historical_prices:77] No historical data for MSFT
+[2026-01-21 18:54:26] INFO     [price_fetcher.get_historical_prices:71] Fetching AMD prices from 2024-06-08 to 2024-06-10
+[2026-01-21 18:54:26] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMD
+[2026-01-21 18:54:26] INFO     [price_fetcher.get_historical_prices:71] Fetching NFLX prices from 2024-06-15 to 2024-06-17
+[2026-01-21 18:54:26] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NFLX
+[2026-01-21 18:54:26] INFO     [price_fetcher.get_historical_prices:71] Fetching PG prices from 2024-06-15 to 2024-06-17
+[2026-01-21 18:54:27] WARNING  [price_fetcher.get_historical_prices:77] No historical data for PG
+[2026-01-21 18:54:27] INFO     [price_fetcher.get_historical_prices:71] Fetching NFLX prices from 2024-06-22 to 2024-06-24
+[2026-01-21 18:54:27] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NFLX
+[2026-01-21 18:54:27] INFO     [price_fetcher.get_historical_prices:71] Fetching JPM prices from 2024-06-22 to 2024-06-24
+[2026-01-21 18:54:27] WARNING  [price_fetcher.get_historical_prices:77] No historical data for JPM
+[2026-01-21 18:54:27] INFO     [price_fetcher.get_historical_prices:71] Fetching DIS prices from 2024-06-22 to 2024-06-24
+[2026-01-21 18:54:27] WARNING  [price_fetcher.get_historical_prices:77] No historical data for DIS
+[2026-01-21 18:54:27] INFO     [price_fetcher.get_historical_prices:71] Fetching WMT prices from 2024-06-29 to 2024-07-01
+[2026-01-21 18:54:27] WARNING  [price_fetcher.get_historical_prices:77] No historical data for WMT
+[2026-01-21 18:54:27] INFO     [price_fetcher.get_historical_prices:71] Fetching AMD prices from 2024-06-29 to 2024-07-01
+[2026-01-21 18:54:27] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMD
+[2026-01-21 18:54:27] INFO     [price_fetcher.get_historical_prices:71] Fetching NVDA prices from 2024-06-29 to 2024-07-01
+[2026-01-21 18:54:27] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NVDA
+[2026-01-21 18:54:27] INFO     [price_fetcher.get_historical_prices:71] Fetching NFLX prices from 2024-07-06 to 2024-07-08
+[2026-01-21 18:54:27] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NFLX
+[2026-01-21 18:54:27] INFO     [price_fetcher.get_historical_prices:71] Fetching JPM prices from 2024-07-06 to 2024-07-08
+[2026-01-21 18:54:27] WARNING  [price_fetcher.get_historical_prices:77] No historical data for JPM
+[2026-01-21 18:54:27] INFO     [price_fetcher.get_historical_prices:71] Fetching AMD prices from 2024-07-06 to 2024-07-08
+[2026-01-21 18:54:27] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMD
+[2026-01-21 18:54:27] INFO     [price_fetcher.get_historical_prices:71] Fetching BA prices from 2024-07-13 to 2024-07-15
+[2026-01-21 18:54:27] WARNING  [price_fetcher.get_historical_prices:77] No historical data for BA
+[2026-01-21 18:54:27] INFO     [price_fetcher.get_historical_prices:71] Fetching NFLX prices from 2024-07-20 to 2024-07-22
+[2026-01-21 18:54:27] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NFLX
+[2026-01-21 18:54:27] INFO     [price_fetcher.get_historical_prices:71] Fetching TSLA prices from 2024-07-27 to 2024-07-29
+[2026-01-21 18:54:27] WARNING  [price_fetcher.get_historical_prices:77] No historical data for TSLA
+[2026-01-21 18:54:27] INFO     [price_fetcher.get_historical_prices:71] Fetching DIS prices from 2024-07-27 to 2024-07-29
+[2026-01-21 18:54:28] WARNING  [price_fetcher.get_historical_prices:77] No historical data for DIS
+[2026-01-21 18:54:28] INFO     [price_fetcher.get_historical_prices:71] Fetching AMD prices from 2024-08-03 to 2024-08-05
+[2026-01-21 18:54:28] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMD
+[2026-01-21 18:54:28] INFO     [price_fetcher.get_historical_prices:71] Fetching META prices from 2024-08-10 to 2024-08-12
+[2026-01-21 18:54:28] WARNING  [price_fetcher.get_historical_prices:77] No historical data for META
+[2026-01-21 18:54:28] INFO     [price_fetcher.get_historical_prices:71] Fetching AAPL prices from 2024-08-10 to 2024-08-12
+[2026-01-21 18:54:28] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AAPL
+[2026-01-21 18:54:28] INFO     [price_fetcher.get_historical_prices:71] Fetching NVDA prices from 2024-08-17 to 2024-08-19
+[2026-01-21 18:54:28] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NVDA
+[2026-01-21 18:54:28] INFO     [price_fetcher.get_historical_prices:71] Fetching NFLX prices from 2024-08-24 to 2024-08-26
+[2026-01-21 18:54:28] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NFLX
+[2026-01-21 18:54:28] INFO     [price_fetcher.get_historical_prices:71] Fetching AMD prices from 2024-08-24 to 2024-08-26
+[2026-01-21 18:54:28] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMD
+[2026-01-21 18:54:28] INFO     [price_fetcher.get_historical_prices:71] Fetching DIS prices from 2024-08-24 to 2024-08-26
+[2026-01-21 18:54:28] WARNING  [price_fetcher.get_historical_prices:77] No historical data for DIS
+[2026-01-21 18:54:28] INFO     [price_fetcher.get_historical_prices:71] Fetching AMZN prices from 2024-08-31 to 2024-09-02
+[2026-01-21 18:54:28] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMZN
+[2026-01-21 18:54:28] INFO     [price_fetcher.get_historical_prices:71] Fetching NVDA prices from 2024-09-07 to 2024-09-09
+[2026-01-21 18:54:28] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NVDA
+[2026-01-21 18:54:28] INFO     [price_fetcher.get_historical_prices:71] Fetching MSFT prices from 2024-09-07 to 2024-09-09
+[2026-01-21 18:54:28] WARNING  [price_fetcher.get_historical_prices:77] No historical data for MSFT
+[2026-01-21 18:54:28] INFO     [price_fetcher.get_historical_prices:71] Fetching DIS prices from 2024-09-14 to 2024-09-16
+[2026-01-21 18:54:28] WARNING  [price_fetcher.get_historical_prices:77] No historical data for DIS
+[2026-01-21 18:54:28] INFO     [price_fetcher.get_historical_prices:71] Fetching V prices from 2024-09-14 to 2024-09-16
+[2026-01-21 18:54:28] WARNING  [price_fetcher.get_historical_prices:77] No historical data for V
+[2026-01-21 18:54:28] INFO     [price_fetcher.get_historical_prices:71] Fetching TSLA prices from 2024-09-14 to 2024-09-16
+[2026-01-21 18:54:28] WARNING  [price_fetcher.get_historical_prices:77] No historical data for TSLA
+[2026-01-21 18:54:28] INFO     [price_fetcher.get_historical_prices:71] Fetching AMZN prices from 2024-09-21 to 2024-09-23
+[2026-01-21 18:54:28] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMZN
+[2026-01-21 18:54:28] INFO     [price_fetcher.get_historical_prices:71] Fetching BA prices from 2024-09-21 to 2024-09-23
+[2026-01-21 18:54:29] WARNING  [price_fetcher.get_historical_prices:77] No historical data for BA
+[2026-01-21 18:54:29] INFO     [price_fetcher.get_historical_prices:71] Fetching META prices from 2024-09-28 to 2024-09-30
+[2026-01-21 18:54:29] WARNING  [price_fetcher.get_historical_prices:77] No historical data for META
+[2026-01-21 18:54:29] INFO     [price_fetcher.get_historical_prices:71] Fetching NFLX prices from 2024-09-28 to 2024-09-30
+[2026-01-21 18:54:29] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NFLX
+[2026-01-21 18:54:29] INFO     [price_fetcher.get_historical_prices:71] Fetching AAPL prices from 2024-09-28 to 2024-09-30
+[2026-01-21 18:54:29] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AAPL
+[2026-01-21 18:54:29] INFO     [price_fetcher.get_historical_prices:71] Fetching AMZN prices from 2024-10-05 to 2024-10-07
+[2026-01-21 18:54:29] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMZN
+[2026-01-21 18:54:29] INFO     [price_fetcher.get_historical_prices:71] Fetching META prices from 2024-10-05 to 2024-10-07
+[2026-01-21 18:54:29] WARNING  [price_fetcher.get_historical_prices:77] No historical data for META
+[2026-01-21 18:54:29] INFO     [price_fetcher.get_historical_prices:71] Fetching PG prices from 2024-10-05 to 2024-10-07
+[2026-01-21 18:54:29] WARNING  [price_fetcher.get_historical_prices:77] No historical data for PG
+[2026-01-21 18:54:29] INFO     [price_fetcher.get_historical_prices:71] Fetching NFLX prices from 2024-10-12 to 2024-10-14
+[2026-01-21 18:54:29] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NFLX
+[2026-01-21 18:54:29] INFO     [price_fetcher.get_historical_prices:71] Fetching AMD prices from 2024-10-12 to 2024-10-14
+[2026-01-21 18:54:29] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMD
+[2026-01-21 18:54:29] INFO     [price_fetcher.get_historical_prices:71] Fetching PG prices from 2024-10-19 to 2024-10-21
+[2026-01-21 18:54:29] WARNING  [price_fetcher.get_historical_prices:77] No historical data for PG
+[2026-01-21 18:54:29] INFO     [price_fetcher.get_historical_prices:71] Fetching MSFT prices from 2024-10-19 to 2024-10-21
+[2026-01-21 18:54:29] WARNING  [price_fetcher.get_historical_prices:77] No historical data for MSFT
+[2026-01-21 18:54:29] INFO     [price_fetcher.get_historical_prices:71] Fetching DIS prices from 2024-10-19 to 2024-10-21
+[2026-01-21 18:54:30] WARNING  [price_fetcher.get_historical_prices:77] No historical data for DIS
+[2026-01-21 18:54:30] INFO     [price_fetcher.get_historical_prices:71] Fetching GOOGL prices from 2024-10-26 to 2024-10-28
+[2026-01-21 18:54:30] WARNING  [price_fetcher.get_historical_prices:77] No historical data for GOOGL
+[2026-01-21 18:54:30] INFO     [price_fetcher.get_historical_prices:71] Fetching GOOGL prices from 2024-11-02 to 2024-11-04
+[2026-01-21 18:54:30] WARNING  [price_fetcher.get_historical_prices:77] No historical data for GOOGL
+[2026-01-21 18:54:30] INFO     [price_fetcher.get_historical_prices:71] Fetching BA prices from 2024-11-02 to 2024-11-04
+[2026-01-21 18:54:30] WARNING  [price_fetcher.get_historical_prices:77] No historical data for BA
+[2026-01-21 18:54:30] INFO     [price_fetcher.get_historical_prices:71] Fetching NFLX prices from 2024-11-09 to 2024-11-11
+[2026-01-21 18:54:30] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NFLX
+[2026-01-21 18:54:30] INFO     [price_fetcher.get_historical_prices:71] Fetching TSLA prices from 2024-11-09 to 2024-11-11
+[2026-01-21 18:54:30] WARNING  [price_fetcher.get_historical_prices:77] No historical data for TSLA
+[2026-01-21 18:54:30] INFO     [price_fetcher.get_historical_prices:71] Fetching V prices from 2024-11-16 to 2024-11-18
+[2026-01-21 18:54:30] WARNING  [price_fetcher.get_historical_prices:77] No historical data for V
+[2026-01-21 18:54:30] INFO     [price_fetcher.get_historical_prices:71] Fetching NFLX prices from 2024-11-16 to 2024-11-18
+[2026-01-21 18:54:30] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NFLX
+[2026-01-21 18:54:30] INFO     [price_fetcher.get_historical_prices:71] Fetching AAPL prices from 2024-11-16 to 2024-11-18
+[2026-01-21 18:54:30] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AAPL
+[2026-01-21 18:54:30] INFO     [price_fetcher.get_historical_prices:71] Fetching GOOGL prices from 2024-11-23 to 2024-11-25
+[2026-01-21 18:54:30] WARNING  [price_fetcher.get_historical_prices:77] No historical data for GOOGL
+[2026-01-21 18:54:30] INFO     [price_fetcher.get_historical_prices:71] Fetching NVDA prices from 2024-11-23 to 2024-11-25
+[2026-01-21 18:54:30] WARNING  [price_fetcher.get_historical_prices:77] No historical data for NVDA
+[2026-01-21 18:54:30] INFO     [price_fetcher.get_historical_prices:71] Fetching WMT prices from 2024-11-30 to 2024-12-02
+[2026-01-21 18:54:30] WARNING  [price_fetcher.get_historical_prices:77] No historical data for WMT
+[2026-01-21 18:54:30] INFO     [price_fetcher.get_historical_prices:71] Fetching MSFT prices from 2024-12-07 to 2024-12-09
+[2026-01-21 18:54:30] WARNING  [price_fetcher.get_historical_prices:77] No historical data for MSFT
+[2026-01-21 18:54:30] INFO     [price_fetcher.get_historical_prices:71] Fetching JPM prices from 2024-12-07 to 2024-12-09
+[2026-01-21 18:54:31] WARNING  [price_fetcher.get_historical_prices:77] No historical data for JPM
+[2026-01-21 18:54:31] INFO     [price_fetcher.get_historical_prices:71] Fetching TSLA prices from 2024-12-07 to 2024-12-09
+[2026-01-21 18:54:31] WARNING  [price_fetcher.get_historical_prices:77] No historical data for TSLA
+[2026-01-21 18:54:31] INFO     [price_fetcher.get_historical_prices:71] Fetching JPM prices from 2024-12-14 to 2024-12-16
+[2026-01-21 18:54:31] WARNING  [price_fetcher.get_historical_prices:77] No historical data for JPM
+[2026-01-21 18:54:31] INFO     [price_fetcher.get_historical_prices:71] Fetching AMD prices from 2024-12-21 to 2024-12-23
+[2026-01-21 18:54:31] WARNING  [price_fetcher.get_historical_prices:77] No historical data for AMD
+[2026-01-21 18:54:31] INFO     [price_fetcher.get_historical_prices:71] Fetching META prices from 2024-12-28 to 2024-12-30
+[2026-01-21 18:54:31] WARNING  [price_fetcher.get_historical_prices:77] No historical data for META
+[2026-01-21 18:54:31] INFO     [backtester.load_historical_signals:93] Generated 0 historical signals
+[2026-01-21 18:54:31] WARNING  [backtester.run_backtest:114] No signals to backtest
