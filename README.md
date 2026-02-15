@@ -5,6 +5,8 @@
 
 A Python-based automated trading system that scrapes insider trading data from OpenInsider, analyzes significant insider purchases, and executes trades via Interactive Brokers API.
 
+![Project Banner](screenshots/banner.png)
+
 ## 🎯 Project Overview
 
 This bot monitors SEC Form 4 filings to identify significant insider buying activity (transactions >£100k by CEOs, CFOs, and Directors) and automatically executes paper trades or live positions through Interactive Brokers. The system demonstrates proficiency in:
